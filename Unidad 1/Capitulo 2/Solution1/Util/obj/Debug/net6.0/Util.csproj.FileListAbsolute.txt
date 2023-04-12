@@ -1,0 +1,12 @@
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\bin\Debug\net6.0\Util.deps.json
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\bin\Debug\net6.0\Util.dll
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\bin\Debug\net6.0\Util.pdb
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.csproj.AssemblyReference.cache
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.GeneratedMSBuildEditorConfig.editorconfig
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.AssemblyInfoInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.AssemblyInfo.cs
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.csproj.CoreCompileInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.dll
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\refint\Util.dll
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\Util.pdb
+K:\Proyectos\.NET\Labs\Unidad 1\Capitulo 2\Solution1\Util\obj\Debug\net6.0\ref\Util.dll
