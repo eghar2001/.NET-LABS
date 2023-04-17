@@ -1,0 +1,15 @@
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\bin\Debug\net6.0\Iteracion.exe
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\bin\Debug\net6.0\Iteracion.deps.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\bin\Debug\net6.0\Iteracion.runtimeconfig.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\bin\Debug\net6.0\Iteracion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\bin\Debug\net6.0\Iteracion.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.csproj.AssemblyReference.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.GeneratedMSBuildEditorConfig.editorconfig
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.AssemblyInfoInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.AssemblyInfo.cs
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.csproj.CoreCompileInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\refint\Iteracion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\Iteracion.genruntimeconfig.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Iteracion\obj\Debug\net6.0\ref\Iteracion.dll
