@@ -18,6 +18,7 @@
                 Console.Write("Ingrese nro 2: ");
                 num2 = Convert.ToDouble(Console.ReadLine());
                 Console.WriteLine();
+                Console.WriteLine($"El resultado de la suma de {num1} y {num2} es {num1 + num2}");
 
             }
             catch (FormatException e)
@@ -28,7 +29,7 @@
             {
                 Console.WriteLine(e.ToString());
             }
-            Console.WriteLine($"El resultado de la suma de {num1} y {num2} es {num1 + num2}");
+            
         }
     }
 }
