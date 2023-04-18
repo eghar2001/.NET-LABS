@@ -1,0 +1,15 @@
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.csproj.AssemblyReference.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.GeneratedMSBuildEditorConfig.editorconfig
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.AssemblyInfoInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.AssemblyInfo.cs
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.csproj.CoreCompileInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\bin\Debug\net6.0\Desicion.exe
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\bin\Debug\net6.0\Desicion.deps.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\bin\Debug\net6.0\Desicion.runtimeconfig.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\bin\Debug\net6.0\Desicion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\bin\Debug\net6.0\Desicion.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\refint\Desicion.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\Desicion.genruntimeconfig.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01\Desicion\obj\Debug\net6.0\ref\Desicion.dll

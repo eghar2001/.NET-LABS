@@ -1,0 +1,15 @@
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\bin\Debug\net6.0\Ejercicio05.exe
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\bin\Debug\net6.0\Ejercicio05.deps.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\bin\Debug\net6.0\Ejercicio05.runtimeconfig.json
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\bin\Debug\net6.0\Ejercicio05.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\bin\Debug\net6.0\Ejercicio05.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.csproj.AssemblyReference.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.GeneratedMSBuildEditorConfig.editorconfig
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.AssemblyInfoInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.AssemblyInfo.cs
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.csproj.CoreCompileInputs.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\refint\Ejercicio05.dll
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.pdb
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\Ejercicio05.genruntimeconfig.cache
+K:\Proyectos\.NET\Labs\Unidad 2\Capitulo 1\Lab01.ParaPensar\Ejercicio05\obj\Debug\net6.0\ref\Ejercicio05.dll
