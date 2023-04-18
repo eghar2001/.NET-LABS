@@ -4,6 +4,12 @@
     {
         static void Main(string[] args)
         {
+            //Ejercicio 5
+            /*
+             Construir una aplicación que reciba el nombre de un mes del año como el parámetro y proporcione su número correspondiente.
+            Debe ser con el formato: < Nombre del mes > + < número del mes >.
+             */
+
             int monthToInt(string month)
             {
                 string mesClave = month.ToLower();
