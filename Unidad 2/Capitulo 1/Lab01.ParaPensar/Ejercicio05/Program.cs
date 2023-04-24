@@ -1,4 +1,6 @@
-﻿namespace Ejercicio05
+﻿using System.Globalization;
+
+namespace Ejercicio05
 {
     internal class Program
     {
@@ -10,37 +12,24 @@
             Debe ser con el formato: < Nombre del mes > + < número del mes >.
              */
 
-            int monthToInt(string month)
-            {
-                string mesClave = month.ToLower();
-                Dictionary<string, int> parMesEntero = new Dictionary<string, int>() {
-                    { "enero",1},
-                    {"febrero",2},  
-                    {"marzo",3},
-                    {"abril",4 },
-                    {"mayo",5 },
-                    {"junio",6 },
-                    {"julio",7 },
-                    {"agosto",8 },
-                    {"septiembre",9 },
-                    {"octubre",10 },
-                    {"noviembre",11 },
-                    {"diciembre",12 }
-                };
-                if (parMesEntero.ContainsKey(mesClave))
-                {
-                    return parMesEntero[mesClave];
-                }
-                else
-                {
-                    return -1;
-                }
-            }
+            
             Console.Write("Ingrese el mes en texto: ");
             string? mesString = Console.ReadLine();
             Console.WriteLine();
-            Console.WriteLine($"El mes {mesString.ToLower()} tiene el numero: {monthToInt(mesString)}");
-            Console.ReadKey();
+            try
+            {
+                int mesInt = DateTime.ParseExact(mesString, "MMMM", CultureInfo.CurrentCulture).Month;
+                Console.WriteLine($"El mes {mesString.ToLower()} tiene el numero: {mesInt}");
+                Console.ReadKey();
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("No ingresó un més valido, intente otra vez");
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);21
+            }
         }
     }
 }

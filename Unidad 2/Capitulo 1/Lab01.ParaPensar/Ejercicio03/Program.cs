@@ -17,9 +17,9 @@
             Console.WriteLine("Serie de Fibonacci: ");
             Console.WriteLine(1);
             
-            int numPenult = 0;
-            int numUlt = 1;
-            int numAct;
+            UInt64 numPenult = 0;
+            UInt64 numUlt = 1;
+            UInt64 numAct;
 
             while(opcion.Key == ConsoleKey.Enter)
             {
