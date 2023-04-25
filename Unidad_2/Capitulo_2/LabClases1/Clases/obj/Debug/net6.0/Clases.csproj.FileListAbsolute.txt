@@ -1,0 +1,12 @@
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\bin\Debug\net6.0\Clases.deps.json
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\bin\Debug\net6.0\Clases.dll
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\bin\Debug\net6.0\Clases.pdb
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.csproj.AssemblyReference.cache
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.AssemblyInfoInputs.cache
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.AssemblyInfo.cs
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.csproj.CoreCompileInputs.cache
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.dll
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\refint\Clases.dll
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\Clases.pdb
+K:\Proyectos\.NET\Labs\Unidad_2\Capitulo_2\LabClases1\Clases\obj\Debug\net6.0\ref\Clases.dll
