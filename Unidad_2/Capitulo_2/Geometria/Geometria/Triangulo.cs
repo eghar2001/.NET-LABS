@@ -69,6 +69,7 @@ namespace Geometria
 
         public override double CalcularSuperficie()
         {
+            /*Calculamos la superficie con la fórmula de Herón*/
             double semiperimetro = this.CalcularPerimetro()/2;
             return Math.Sqrt(semiperimetro * (semiperimetro - lado1) * (semiperimetro - lado2) * (semiperimetro - lado3));
         }

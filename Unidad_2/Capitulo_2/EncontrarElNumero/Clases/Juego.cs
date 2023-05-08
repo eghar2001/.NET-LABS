@@ -16,7 +16,7 @@ namespace Clases
 
         public void ComenzarJuego()
         {
-            Jugada jugada = new Jugada(PreguntarMaximo());
+            JugadaConAyuda jugada = new JugadaConAyuda(PreguntarMaximo());
             Console.WriteLine("Bienvenido al juego!!!\n");
             Console.WriteLine(jugada.Numero);
             Console.Write("Presione J para jugar: ");
@@ -64,9 +64,9 @@ namespace Clases
             return false;
         }
 
-        public void Continuar(Jugada jugada)
+        public void Continuar(JugadaConAyuda jugada)
         {
-            jugada = new Jugada(PreguntarMaximo());
+            jugada = new JugadaConAyuda(PreguntarMaximo());
         }
 
         private int PreguntarMaximo()
