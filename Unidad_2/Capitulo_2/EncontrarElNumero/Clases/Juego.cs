@@ -1,81 +1,100 @@
-﻿namespace Clases;
-public class Juego
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Clases
 {
-    private int _record;
-
-    public Juego()
+    public class Juego
     {
-        _record = 0;
-    }
+        private int _record;
 
-    public void ComenzarJuego()
-    {
-        const int maximo_numero = 10;
-        Jugada jugada = new Jugada(maximo_numero);
-        Console.WriteLine("Bienvenido al juego de adivinar numeros!");
-        Console.WriteLine("Presione S para comenzar el juego\n");
-        ConsoleKeyInfo tecla_presionada = Console.ReadKey();
-        while (tecla_presionada.Key == ConsoleKey.S)
+        public Juego()
         {
-            Console.WriteLine($"Tiene que adivinar un numero entre el 1 y el {maximo_numero}");
-            Console.Write($"Inserte el numero que piensa que es: ");
-            int numero_intentado = 0;
+            
+        }
+
+        public void ComenzarJuego()
+        {
+            Jugada jugada = new Jugada(PreguntarMaximo());
+            Console.WriteLine("Bienvenido al juego!!!\n");
+            Console.WriteLine(jugada.Numero);
+            Console.Write("Presione J para jugar: ");
+            ConsoleKeyInfo tecla = Console.ReadKey();
+            Console.WriteLine();
+            while ( tecla.Key == ConsoleKey.J || tecla.Key == ConsoleKey.C)
+            {
+                Console.WriteLine($"Ingrese un numero menor a {PreguntarMaximo()}");
+                int numero_adivinado = PreguntarNumero();
+                if (jugada.Comparar(numero_adivinado)){
+                    Console.WriteLine("Felicidades !!! Adivinaste el numero!");
+                    if (CompararRecord(jugada.Intentos))                    {
+                        Console.WriteLine($"Felicidades!! Rompiste el record con {_record} intentos");
+                    }
+                    
+                    
+
+                }
+                else
+                {
+                    Console.WriteLine("No adivinaste el numero :(");
+                    Console.Write("Presione: C para continuar -- J para jugar otro numero");
+                    tecla = Console.ReadKey();
+                    Console.WriteLine() ;
+                    if(tecla.Key == ConsoleKey.J)
+                    {
+                        Continuar(jugada);
+                        Console.WriteLine("Se reseteó el número");
+                    }
+                }
+
+
+            }
+
+        }
+
+        private bool CompararRecord(int new_record)
+        {
+            
+            if (new_record < _record || !Convert.ToBoolean(_record))
+            {
+                _record = new_record;
+                return true;
+            }
+            return false;
+        }
+
+        public void Continuar(Jugada jugada)
+        {
+            jugada = new Jugada(PreguntarMaximo());
+        }
+
+        private int PreguntarMaximo()
+        {
+            return 50;
+        }
+
+        private int PreguntarNumero()
+        {
+            int numero = 0;
             try
             {
-                numero_intentado = Int32.Parse(Console.ReadLine());
+                numero = int.Parse(Console.ReadLine());
+                
             }
-            catch (ArgumentOutOfRangeException e)
-            {
-                Console.WriteLine("Ingresó un numero fuera de rango");
-                Console.WriteLine(e.ToString());
-
-            }
-            catch (Exception e)
-            {
+            catch (FormatException e) {
+                Console.WriteLine("Ingrese un formato de numero válido");
                 Console.WriteLine(e.ToString());
             }
-            bool acerto_numero = jugada.Comparar(numero_intentado);
-            if (acerto_numero)
+            catch(OverflowException e)
             {
-                Console.WriteLine($"Felicidades!! Acertaste el numero! ");
-                Console.WriteLine($"El numero que era: {jugada.Numero}");
-                Console.WriteLine($"La cantidad de intentos fue: {jugada.Intentos}\n\n");
-                if (CompararRecord(jugada.Intentos))
-                {
-                    Console.WriteLine($"Mejoraste el ultimo record de {_record} intentos");
-                    _record = jugada.Intentos;
-                }
-                Console.WriteLine("Presione S para jugar de nuevo\n");
-                tecla_presionada = Console.ReadKey();
+                Console.WriteLine("Se excedio del maximo o minimo numero posible");
+                Console.WriteLine(e.ToString());
             }
-            else
-            {
-                Console.WriteLine("No acertaste el numero :( ");
-                Console.WriteLine("Intente de nuevo");
-            }
+            catch (Exception e) {
+                Console.WriteLine(e.ToString());
+               }
+            return numero;
         }
     }
-    
-
-    public bool CompararRecord(int intentos)
-    {
-    return intentos < _record;
-    }
-
-    private void Continuar()
-    {
-    
-        throw new System.NotImplementedException();
-    }
-
-    private void PreguntarMaximo()
-    {
-        throw new System.NotImplementedException();
-    }
-
-    private void PreguntarMinimo()
-    {
-        throw new System.NotImplementedException();
-    }
-}
 }

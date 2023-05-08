@@ -1,4 +1,4 @@
-﻿
+﻿using Clases;
 
 namespace Programa
 {
@@ -8,7 +8,6 @@ namespace Programa
         {
             Juego juego = new Juego();
             juego.ComenzarJuego();
-
         }
     }
 }
