@@ -19,11 +19,10 @@ namespace Clases
             JugadaConAyuda jugada = new JugadaConAyuda(PreguntarMaximo());
             Console.WriteLine("Bienvenido al juego!!!\n");
             Console.WriteLine(jugada.Numero);
-            Console.Write("Presione J para jugar: ");
-            ConsoleKeyInfo tecla = Console.ReadKey();
-            Console.WriteLine();
-            while ( tecla.Key == ConsoleKey.J || tecla.Key == ConsoleKey.C)
+            Console.Write("Presione C para comenzar el juego: ");
+            while ( Continuar() )
             {
+                Console.WriteLine();
                 Console.WriteLine($"Ingrese un numero menor a {PreguntarMaximo()}");
                 int numero_adivinado = PreguntarNumero();
                 if (jugada.Comparar(numero_adivinado)){
@@ -31,21 +30,16 @@ namespace Clases
                     if (CompararRecord(jugada.Intentos))                    {
                         Console.WriteLine($"Felicidades!! Rompiste el record con {_record} intentos");
                     }
-                    
-                    
+                    Console.WriteLine("Presione C para jugar otro");
+                    jugada = new JugadaConAyuda(PreguntarMaximo());
+
 
                 }
                 else
                 {
                     Console.WriteLine("No adivinaste el numero :(");
-                    Console.Write("Presione: C para continuar -- J para jugar otro numero");
-                    tecla = Console.ReadKey();
-                    Console.WriteLine() ;
-                    if(tecla.Key == ConsoleKey.J)
-                    {
-                        Continuar(jugada);
-                        Console.WriteLine("Se reseteó el número");
-                    }
+                    Console.Write("Presione C para continuar: ");                  
+                    
                 }
 
 
@@ -64,9 +58,10 @@ namespace Clases
             return false;
         }
 
-        public void Continuar(JugadaConAyuda jugada)
+        public bool Continuar()
         {
-            jugada = new JugadaConAyuda(PreguntarMaximo());
+            ConsoleKeyInfo tecla = Console.ReadKey();
+            return tecla.Key == ConsoleKey.C;
         }
 
         private int PreguntarMaximo()
@@ -88,7 +83,7 @@ namespace Clases
             }
             catch(OverflowException e)
             {
-                Console.WriteLine("Se excedio del maximo o minimo numero posible");
+                Console.WriteLine("Se excedio del maximo o minimo numero posible por el tipo de dato");
                 Console.WriteLine(e.ToString());
             }
             catch (Exception e) {
