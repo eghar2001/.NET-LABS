@@ -34,6 +34,9 @@ namespace Academia
             MessageBox.Show("Pretendes que te recuerde la contraseña?", "Olvide mi contraseña", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
         }
 
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }
